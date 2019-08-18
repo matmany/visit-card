@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic|Open+Sans|Sacramento');
+
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #9bd7df;
+    background: -moz-linear-gradient(-45deg, #9bd7df 0%, #9bd7df 18%, #fda553 41%, #f59ea2 60%, #d2d788 83%, #d2d788 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #9bd7df), color-stop(18%, #9bd7df), color-stop(41%, #fda553), color-stop(60%, #f59ea2), color-stop(83%, #d2d788), color-stop(100%, #d2d788));
+    background: -webkit-linear-gradient(-45deg, #9bd7df 0%, #9bd7df 18%, #fda553 41%, #f59ea2 60%, #d2d788 83%, #d2d788 100%);
+    background: -o-linear-gradient(-45deg, #9bd7df 0%, #9bd7df 18%, #fda553 41%, #f59ea2 60%, #d2d788 83%, #d2d788 100%);
+    background: -ms-linear-gradient(-45deg, #9bd7df 0%, #9bd7df 18%, #fda553 41%, #f59ea2 60%, #d2d788 83%, #d2d788 100%);
+    background: linear-gradient(135deg, #9bd7df 0%, #9bd7df 18%, #fda553 41%, #f59ea2 60%, #d2d788 83%, #d2d788 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bd7df', endColorstr='#d2d788', GradientType=1 );
+}
+section{
+    width: 100%;
+}
+ .face-img{
+
+    margin: 40px auto 0 auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    background-image: url("../Capture.PNG");
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+.links{
+    text-align: center;
+    margin-top: 120px;
+}
+.links a{
+    margin-left: 25px;
+}
+ img{
+     width: 60px;
+     height: 60px;
+ }
+
+ .name{
+     text-align: center;
+ }
+ .name h1{
+    font-size: 45px;
+    font-weight: 100;
+    font-family: 'Sacramento', sans-serif;
+    margin-bottom: 0;
+ }
+
+ .prof{
+     text-align: center
+ }
+
+ .prof h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    font-size: 35px;
+ }
